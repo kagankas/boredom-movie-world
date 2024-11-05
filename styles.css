@@ -1,0 +1,58 @@
+ body{
+    background-color: rgb(149, 152, 156);
+    
+}
+
+#header{
+    color: yellowgreen;
+    background-color: rgb(102, 153, 45);
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-content: center;
+}
+form{
+    width: 50%;
+    height: auto;
+    padding-top: 30px;
+}
+
+#searchbar{
+    justify-content: space-between;
+}
+ li{
+    border: solid 0.5px ; 
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    width:200px;
+    padding: 5px;
+    margin: 5px;
+    
+}
+img{
+    
+    justify-content: center;
+    width: 150px;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+}
+ul{
+    align-content: center;
+    background-color: rgb(251, 250, 250);
+    height: 250px;    
+    gap:10px;
+    list-style-type: none; /* Remove bullet points */
+    padding: 5;           /* Remove default padding */
+    margin: 2;            /* Remove default margin */
+    display: flex;   
+    padding-left: 10px;
+    overflow-x: auto;      
+    list-style-type: none;   
+    scrollbar-width: none;
+    justify-content: center;
+}
+ 
